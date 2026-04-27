@@ -40,6 +40,8 @@ jobs:
 #        run: npm ci
       - name: Load & cache dependencies
         uses: ./.github/actions/cached-deps
+        with:
+          caching: 'true' # provide input to composite action in action.yml
       - name: Test code
         id: run-tests
         run: npm run test
@@ -66,6 +68,8 @@ jobs:
 #        run: npm ci
       - name: Load & cache dependencies
         uses: ./.github/actions/cached-deps
+        with:
+          caching: 'true' # provide input to composite action in action.yml
       - name: Build website
         run: npm run build
       - name: Upload artifacts
