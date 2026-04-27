@@ -10,7 +10,7 @@ outputs:
     description: 'Whether the cache was used.'
     value: ${{ steps.install.outputs.cache }}
 runs:
-  using: 'composite'
+  using: 'composite' # create composite action
   steps:
     - name: Cache dependencies
       if: inputs.caching == 'true'
