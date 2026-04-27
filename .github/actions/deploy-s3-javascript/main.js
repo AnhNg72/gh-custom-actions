@@ -1,5 +1,5 @@
-const core = require('@actions/core')
-const github = require('@actions/github')
+const core = require('@actions/core@latest')
+const github = require('@actions/github@latest')
 const exec = require('@actions/exec')
 
 function run() {
