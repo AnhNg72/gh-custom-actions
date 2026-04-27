@@ -3,4 +3,3 @@ description: 'Deploy a static website via AWS S3.'
 runs:
   using: 'node20' # create JavaScript action
   main: 'main.js'
-  
