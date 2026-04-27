@@ -1,19 +1,11 @@
 {
   "name": "deploy-s3-javascript",
   "version": "1.0.0",
+  "type": "module",
   "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@actions/core": "^3.0.1",
     "@actions/exec": "^3.0.0",
     "@actions/github": "^9.1.1"
-  },
-  "devDependencies": {},
-  "description": ""
-
+  }
 }
